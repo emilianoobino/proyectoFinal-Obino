@@ -155,6 +155,7 @@ function pagarCarrito() {
     Swal.fire("Felicitaciones, disfruta tu instrumento!");
     carrito = [];
     CarritoEnPagina();
+    saveLocal()
 }
 const saveLocal = () => {
     localStorage.setItem("guardarCompra", JSON.stringify(carrito));
