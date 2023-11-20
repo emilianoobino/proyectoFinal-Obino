@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(60, 136, 159);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(./imagenes/guitarraheader.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+h1 {
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+p {
+    color: whitesmoke;
+    font-size: 30px;
+}
+.homeInstrument {
+    display: Flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.card {
+    background-color: rgb(153, 194, 207);
+    box-shadow: 0 0 10px #666;
+    border-radius: 10px;
+    border: 1px solid #666;
+    max-width: auto;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card.img {
+    width: 90%;
+    height: 250px;
+}
+.price {
+    color:black;
+    font-size: 20px;
+}
+.card button {
+    border-radius: 5px;
+    outline: 0;
+    padding: 12px;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
+.card button:hover {
+    opacity: 0.8;
+}
+footer {
+    font-size: 30px;
+    text-align: center;
+}
+.box-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: white;
+    background-color: rgb(43, 97, 113);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+.boxHeader {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    
+}
+.boxHeader-Titulo {
+    justify-self: start;
+}
+.boxHeader-Button {
+    cursor: pointer;
+    background-color: rgb(163, 72, 72);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.box-container .carritoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 70%;
+    margin: 10px;
+} 
+.box-container div img {
+    height: 120px;
+    width: 120px;
+}
+.totalComprado {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.eliminar-producto {
+    cursor: pointer;
+    background-color: rgb(163, 72, 72);
+    border-radius: 10px;
+    color: whitesmoke;
+}
+.restar {
+    cursor: pointer;
+    background-color: orchid ;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.sumar {
+    cursor: pointer;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.pagar {
+    cursor: pointer;
+    background-color: rgb(96, 179, 96) ;
+    color: whitesmoke;
+    border-radius: 10px;
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre": "Guitarra acustica",
+        "precio": 190000,
+        "img": "./imagenes/guitarraAcustica.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Guitarra electrica",
+        "precio": 1500000,
+        "img": "./imagenes/guitarraElectrica.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Guitarra electrica sx",
+        "precio": 1600000,
+        "img": "./imagenes/guitarraElectricasx.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Bajo electrico",
+        "precio": 1500000,
+        "img": "./imagenes/bajoElectrico.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Bajo electrico 5 cuerdas",
+       "precio": 851000,
+        "img": "./imagenes/bajoElectrico5.webp",
+        "cantidad": 1
+    },
+    {
+       "id": 6,
+       "nombre": "Bateria",
+       "precio": 1000000,
+       "img": "./imagenes/bateria.webp",
+       "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Bateria electronica",
+        "precio": 1200000,
+        "img": "./imagenes/bateriaElectronica.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Teclado Yamaha",
+        "precio": 500000,
+        "img": "./imagenes/tecladoYamaha.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Saxo",
+        "precio": 600000,
+        "img": "./imagenes/saxo.webp",
+        "cantidad": 1
+    }
+]
