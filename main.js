@@ -153,7 +153,8 @@ function eliminarProducto(id) {
 }
 function pagarCarrito() {
     Swal.fire("Felicitaciones, disfruta tu instrumento!");
-
+    carrito = [];
+    CarritoEnPagina();
 }
 const saveLocal = () => {
     localStorage.setItem("guardarCompra", JSON.stringify(carrito));
